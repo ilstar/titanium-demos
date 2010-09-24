@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>20100924</id>
+<name>titanium_demos</name>
+<version>1.0</version>
+<publisher>fred</publisher>
+<url>idapted.com</url>
+<description>No description provided</description>
+<copyright>2010 by fred</copyright>
+<icon>default_app_logo.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+<guid>0f03e6dd-d15e-43ed-8452-9a244bfb3eeb</guid>
+</ti:app>
