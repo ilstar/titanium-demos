@@ -21,6 +21,13 @@ var rowDB = Ti.UI.createTableViewRow({
 });
 tableView.appendRow(rowDB);
 
+var rowHTTP = Ti.UI.createTableViewRow({
+  title: 'HTTP request',
+  hasChild: true,
+  url: 'http_request.js'
+});
+tableView.appendRow(rowHTTP);
+
 // event listners
 tableView.addEventListener('click', function(e) {
   if (e.rowData.url) {
