@@ -1,18 +1,6 @@
-Welcome to your Appcelerator Titanium Mobile Project
+Do you know about Appcelerator Titanium? 
+It's a great framework, you can develop iPhone, iPad or Android app use javascript in it.
+Interesting? Visit http://www.appcelerator.com/ right now!
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
-
-
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+This is a demo project, it includes some function and usage. In the app, every demo file in ./src directory
+and the filename same as window title.

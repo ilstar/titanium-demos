@@ -14,6 +14,13 @@ var rowCommunication = Ti.UI.createTableViewRow({
 });
 tableView.appendRow(rowCommunication);
 
+var rowDB = Ti.UI.createTableViewRow({
+  title: 'DB operations',
+  hasChild: true,
+  url: 'db_operations.js'
+});
+tableView.appendRow(rowDB);
+
 // event listners
 tableView.addEventListener('click', function(e) {
   if (e.rowData.url) {
