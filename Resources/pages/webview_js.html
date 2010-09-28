@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>Communicate with Web View</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> 
+    <style type="text/css" media="screen">
+      div {
+        width: 200px;
+        height: 100px;
+        border: solid 1px #def;
+        margin: 3px;
+        padding: 5px;
+      }
+    </style>
+    <script type="text/javascript" language="javascript" charset="utf-8">
+      $(document).ready(function() {
+        $('#d1').click(function() {
+          $(this).css("background-color", 'green');
+          $(this).text('I changed by myself');
+        });
+      });
+    </script>
+  </head> 
+  <body> 
+    <div id="d1">
+      This is a blank block.
+    </div>
+    <div id="d2">
+      change me, use Titanium button.
+    </div>
+    <!--the second argument is a hash, you can put anything into it.-->
+    <button onclick="Ti.App.fireEvent('fromPage', {msg: 'hello', num: 3})">Click me and look log in Titanium</button>
+  </body> 
+</html> 
